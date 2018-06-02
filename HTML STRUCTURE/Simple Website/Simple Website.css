@@ -1,0 +1,37 @@
+body{
+    background: #CCCCCC;
+    margin: 20px;
+    padding: 0px;
+}
+h1{
+    font-size: 28px;
+}
+article p{
+    font-size: 24px;
+}
+header p{
+    font-style: italic;
+}
+
+ul{
+    background: #444;
+
+}
+ul li{
+    display: inline-block;
+    font-size: 24px;
+    padding: 20px;
+    height: 40px; ;
+    line-height: 40px;
+
+}
+li a{
+    color: white;
+    text-decoration: none;
+
+}
+footer p{
+    text-align: center;
+    background: #444;
+    color: #fff;
+}
