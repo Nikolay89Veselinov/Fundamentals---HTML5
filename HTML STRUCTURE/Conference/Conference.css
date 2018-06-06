@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #234465;
+    font-family: 'Lato', sans-serif;
+}
+header {
+    height: 60%;
+    color: white;
+    text-align: center;
+}
+.head p{
+    color: #5F837E;
+}
+main{
+    background: white;
+}
+.topmenu li {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    height: 40px;
+    padding: 20px;
+}
+.topmenu li a:hover{
+    color: white;
+    cursor: pointer ;
+}
+nav li a {
+   color: #5F837E;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 50px;
+    font-weight: lighter;
+}
+h2{
+    color: #5F837E;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+}
+h3{
+    color: #5F837E;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: normal;
+}
+header p{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.btn{
+    text-transform: uppercase;
+    color: #fff;
+    background: none;
+    Border: 1px solid #fff;
+    border-radius: 12px;
+    padding: 25px;
+    font-size: 18px;
+    margin: 20px;
+}
+.btn:hover{
+    color: #069bff;
+    background: white;
+    cursor: pointer;
+}
+img{
+    display: inline-block;
+    border-radius: 5px;
+}
+main{
+    border: 1px solid white;
+    margin: 0px;
+}
+section{
+    width: 1100px;
+    margin: 30px auto;
+}
+.image{
+    display: inline-block;
+}
+h4 {
+    color: #c4c4c4;
+    text-align: left;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+h5 {
+    color: #c4c4c4;
+    font-size: 30px;
+    margin: 20px auto;
+}
+footer li{
+    float: right;
+}
+footer li a {
+    color: white;
+}
+footer p {
+    font-size: 24px;
+    float: left;
+    padding: 20px;
+    color: white;
+}
+.bottopmenu li {
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    padding: 20px;
+    cursor: pointer;
+}
+#banner img{
+    margin: 0px;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0px;
+}
+#banner{
+    border: 2px solid #c4c4c4;
+    margin: 50px;
+    padding: 50px;
+}
+
+
+
+
+
+
