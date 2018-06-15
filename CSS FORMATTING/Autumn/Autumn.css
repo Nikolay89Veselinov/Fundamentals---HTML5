@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background:  #EE7047;
+    color: black;
+}
+nav{
+    text-align: right;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 16px;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+li:hover{
+    cursor: pointer;
+    background: #B64E35;
+    color: white;
+    font-style: italic;
+    border-color: #F8B544;
+}
+header{
+    border-radius: 15px;
+    width: 33%;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+header, nav ul li{
+    text-align: center;
+    border:double #B64E35;
+    text-align: center;
+}
+main{
+    padding: 20px;
+    padding-left: 0;
+}
+main{
+    background-color: #F8B544;
+    width: 100%;
+}
+main section article {
+    border: double 3px #BB4846;
+    border-radius: 15px;
+    padding: 22px;
+    margin: 20px 20px 30px;
+}
+img{
+    float:  right;
+    width: 18%;
+    border: 2px solid #EE7047;
+    border-radius: 11px;
+}
+p{
+    text-align: justify;
+   font-size: 12px;
+    width: 77%;
+}
+button{
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 2px solid #EE7047;
+    color:#EE7047;
+    border-radius: 15px;
+    padding: 10px 22px;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    background: #B64E35;
+    color: white;
+    font-style: italic;
+}
+
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    border:2px dotted #9E4A2F;
+    width: 100%;
+    margin-top: 8px;
+}
+
+
+
