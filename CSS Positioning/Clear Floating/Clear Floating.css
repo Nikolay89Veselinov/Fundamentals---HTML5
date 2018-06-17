@@ -1,0 +1,43 @@
+*body{
+    box-sizing: border-box;
+}
+header, footer{
+    padding: 20px;
+    background-color: #8B603D;
+    font-size: 25px;
+    color: white;
+    border: 2px solid black;
+}
+.float-left{
+    float: left;
+    padding: 16px;
+}
+.float-right{
+    float: right;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 15px;
+    margin-bottom: 8px;
+    background: #33b5e5;
+    color: #ffffff;
+    font-size: 25px;
+    width: 230%;
+}
+.content{
+    width: 75%;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+footer p{
+
+}
