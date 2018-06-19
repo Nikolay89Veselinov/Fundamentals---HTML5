@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    Background: linear-gradient(to bottom, #567788 0%,#121f25 100%)no-repeat fixed;
+}
+main{
+    height: 1000px;
+}
+nav{
+    height: 60px;
+    background-color: #EFF4F7;
+    margin: 40px auto;
+    width: 95%;
+    position: relative;
+    z-index: 1;
+}
+nav ul li{
+    display: inline-block;
+    float: right;
+}
+nav ul li a{
+    padding: 5px 10px;
+    padding-top: -44px;
+    color: #a4a8a9;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #70ECFF;
+    cursor: pointer;
+}
+nav ul{
+    z-index: 1;
+    padding: 20px 25px 0 0;
+}
+section.logo{
+    z-index: 0;
+    position: absolute;
+    top: 20px;
+    left: 550px;
+    background-color: red;
+    width: 85px;
+    height: 85px;
+    padding: 15px;
+}
+h1.brand{
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    color: white;
+    margin-top: 65px;
+}
+main{
+    background-color: #CBD0D9;
+    width: 85%;
+    margin: 5% auto;
+}
+h1.book-title{
+    position: relative;
+    z-index: 10;
+    color: #121f25;
+    font-size: 54px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h5.book-genre{
+    position: absolute;
+    z-index: 1;
+    top: 23%;
+    left: 45%;
+    font-size: 110px;
+    text-transform: uppercase;
+    color: #6DFFB8;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    max-width: 80%;
+    border-radius: 50%;
+}
+body > main > section:nth-child(2){
+    position: relative;
+    z-index: 8;
+    margin: 7% auto;
+    color: white;
+    width: 350px;
+    padding: 40px;
+    text-align: center;
+    Background: linear-gradient(to bottom, #eb3c53 0%, #e6135c 100%) no-repeat
+    center center;
+}
+p#star{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+body > main > section:nth-child(2) > p:nth-child(4){
+    padding: 20px;
+}
+body > main > section:nth-child(2) > button{
+    height:40px;
+    width:100px;
+    background: none;
+    color: white;
+    border: 3px solid #628291;
+    margin: 20px auto;
+    text-transform: uppercase;
+    border-color: #70ECFF;
+}
+body > main > section:nth-child(2) > button:hover{
+    cursor: pointer;
+    background: #70ECFF;
+}
+body > main > section:nth-child(3){
+    position: relative;
+    z-index: 5;
+    top: -350px;
+    margin: 40px;
+    background: white;
+    padding: 250px 35px 35px 35px;
+}
+body > main > section:nth-child(3) >h1
+{
+    text-transform: capitalize;
+    color: #70ECFF;
+    font-size: 40px;
+    background: white;
+    padding-bottom: 50px;
+}
+body > main > section:nth-child(3) > p{
+    padding-bottom: 10px;
+}
+body > main > section:nth-child(3) > button{
+    text-transform: uppercase;
+    border: 2px solid #628291;
+    padding: 5px 10px;
+    background: none;
+}
+body > main > section:nth-child(3) > button:hover{
+    cursor: pointer;
+    color: #70ECFF;
+    background-color:#628291 ;
+}
+
