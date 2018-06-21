@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Lemon');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #602D75;
+    font-family: 'Lemon', cursive;
+}
+main{
+    width: 900px;
+    margin: 60px auto;
+    height: 620px;
+    background-color: #FFAE32;
+    border-radius: 25px;
+}
+h1{
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 2px;
+    padding-top: 33px;
+}
+article{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 220px;
+    position: relative;
+    left: 6.5%;
+    background-color: #602D75;
+    display: inline-block;
+    margin: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+h2.price{
+    font-size: 22px;
+    color: white;
+}
+h3.guarantee{
+    color:#FFAE32;
+    font-size: 15px;
+}
+img{
+
+    width: 185px;
+    border: 4px solid #826C73;
+    border-radius: 50%;
+}
+p.information{
+    text-align: justify;
+    padding-left: 15px;
+    color: white;
+}
+.btn{
+    border: none;
+    background-color: white;
+    padding: 10px 60px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    color: #9347FF;
+    border-radius: 25px;
+}
+.btn:hover{
+    cursor: pointer;
+    font-size: 17px;
+}
