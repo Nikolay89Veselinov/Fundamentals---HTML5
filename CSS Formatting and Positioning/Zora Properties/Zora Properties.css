@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+aside{
+    background-color: white;
+    height: 100%;
+    width: 15%;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+}
+.store-name{
+    margin: 45px 0 25px;
+    font-size: 35px;
+}
+aside figure img{
+    border-radius: 50%;
+    width: 100px;
+}
+aside figure img:hover{
+    width: 150px;
+}
+
+figcaption{
+    margin: 10px 0 15px;
+    font-size: 20px;
+    color: #91a5af;
+}
+ul{
+    text-align: justify;
+    float: left;
+}
+ul li{
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: #91a5af;
+}
+ul li a i{
+    padding: 0 5px 0 15px;
+}
+ul li a:hover{
+    padding-left: 18px;
+    border-left: 2px solid #FF7739;
+    cursor: pointer;
+    color: #384850;
+}
+
+header div h2{
+
+    padding: 35px;
+    padding-left: 35px;
+}
+div{
+    width:90%;
+}
+div h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+    color: #3F4744;
+    margin-left: -15px;
+}
+div h2 span{
+    color:#B8C5CD ;
+}
+main h3{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+main> p{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+div button {
+    margin-top: -22px;
+    float: right;
+    text-transform: uppercase;
+    border: 2px solid #FF7739;
+    background-color: #FF7739;
+    padding: 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
+    color: #F4F5F7;
+}
+div button:hover{
+    background-color: white;
+    color: #FF7739;
+}
+
+main {
+    background-color: #e0e1e3;
+    margin-left: 15%;
+    padding-left: 40px;
+}
+section{
+    display: inline-block;
+    width: 27%;
+    background-color: white;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 40px 0px 0px;
+    box-shadow: 4px 4px 15px 4px rgba(0,0,0,0.42);
+}
+section:hover{
+    opacity: 0.8;
+}
+article section img{
+    width: 100%;
+    margin-top: -25px;
+}
+section p{
+    padding: 0 0 8px 15px;
+    text-transform: capitalize;
+    color: gray;
+    font-weight: bold;
+}
+
+section button {
+    width: 90px;
+    height: 30px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    top: 50px;
+    left: -15px;
+}
+section button.rented{
+     background-color: #B8C5CD;
+ }
+section button.listed{
+    background-color: #68BB69;
+}
+section button.draft{
+    background-color: #91A5AE;
+}
+section button.rented i{
+    padding-right: 2px;
+}
+section button:hover{
+    font-size: 15px;
+    cursor: pointer;
+}
