@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Montserrat, sans-serif;
+}
+header{
+    background: url("images/Layer-759_02.jpg")no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 435px;
+}
+nav{
+    position: relative;
+    width: 55%;
+    margin: 0 auto;
+    top: 15px;
+    background-color: rgba(186, 146, 94, 0.8);
+    margin: 0 auto;
+}
+nav ul{
+    padding: 20px;
+
+}
+nav ul li {
+    display: inline-block;
+    padding: 0 18px 0 18px;
+    text-transform: uppercase;
+}
+nav ul li:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+}
+h1{
+    margin-top: 7%;
+    text-transform: uppercase;
+}
+header p{
+    font-size: 18px;
+    padding-top: 25px;
+}
+header button{
+    padding: 8px 12px;
+    margin-top: 20px;
+    background-color: #080820;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+header button:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    background-color: #BA925E;
+}
+main h2{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 35px;
+}
+section{
+    text-align: center;
+    margin-top: -20px;
+}
+#first-row,#second-row {
+    width: 100%;
+}
+#first-row article:nth-child(3){
+    position: relative;
+    top: -20px;
+}
+#second-row{
+    position: relative;
+    top:-35px
+}
+.icon{
+    margin-left: -45px;
+    position: relative;
+    bottom: -25px;
+}
+.icon i{
+    border: 1px solid black;
+    border-radius: 50%;
+    background: #080820;
+    color: white;
+    padding: 6px;
+}
+article{
+    padding: 35px;
+    display: inline-block;
+    width: 25%;
+    text-align: justify;
+}
+article p{
+    padding-top: 15px;
+}
+article p, h3{
+    margin-top: 15px;
+}
+#middle-section {
+    background: url("images/steel-bg.jpg");
+    height: 110px;
+    width: 100%;
+}
+#middle-section p{
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #b2956b;
+    font-weight: bold;
+    font-size: 17px;
+}
+#middle-section p span{
+    color: black;
+    font-weight: normal;
+}
+#choose-us{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)),
+            url("images/background-choose-us.jpg")no-repeat center;
+    height: 450px;
+}
+#choose-us h1{
+    font-size: 53px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: -12px;
+    padding: 35px;
+    text-transform: capitalize;
+}
+#choose-us article h2{
+}
+#choose-us article{
+    color: white;
+    border: 2px solid #b79867;
+    width: 20%;
+    margin-right: 33px;
+    height: 180px;
+}
+#choose-us article h2{
+    margin-top: 25px;
+    font-size: 24px;
+}
+#choose-us article p{
+    margin-top: -5px;
+    text-align: left;
+    width: 99%;
+    padding: 20px;
+    margin-top:20px;
+}
+#choose-us article:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+#quote{
+    background: url("images/consulting-woman.jpg")no-repeat ;
+    height: 600px;
+}
+#quote > article{
+    background-color: rgba(249, 249, 249, 0.6);
+    position: relative;
+    left: 609px;
+    top:148px;
+    width: 30%;
+    height: 350px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#quote p{
+    width: 100%;
+    font-size: 12px;
+    font-size: 15px;
+    position: relative;
+    top: -10px;
+}
+#quote p >span{
+    color: #b2956b;
+    font-size: 20px;
+}
+
+#nested-article{
+    background-color: #080820;
+    color: white;
+    width: 85%;
+    height: 161px;
+    position: relative;
+    top: 26px;
+}
+#nested-article span{
+    font-size: 9px;
+    float: right;
+}
+#nested-article h2{
+    font-size:22px ;
+    float: left;
+}
+#partners{
+    background-color: white;
+    margin: 0;
+}
+#partners img{
+    vertical-align: top;
+    margin: 0 auto;
+    width: 150px;
+    height: 80px;
+    padding: 35px 0 35px 0;
+}
+footer{
+    background-color: #080820;
+    color: white;
+    margin: 0 auto;
+    height: 330px;
+}
+footer article{
+    position: relative;
+    left: 120px;
+    vertical-align: top;
+    margin: 20px;
+    width: 25%;
+    margin-top: -24px;
+    margin-left: 20px;
+
+}
+footer p{
+    width: 53%;
+    padding: 3px;
+}
+footer h3 {
+    padding-bottom: 15px;
+    margin-left: -25px;
+}
+#social{
+    margin-left: 35px;
+}
+#social i{
+    position: relative;
+    top: 15px;
+    background-color: #83838F;
+    color: #080820;
+    border-radius: 50%;
+    max-resolution: res;
+    margin: 8px;
+    padding-top: 15px;
+    padding: 10px;
+}
+footer article div{
+    vertical-align: top;
+    display: inline-block;
+}
+
+footer article div a{
+    color: orange;
+    text-decoration: none;
+}
+footer article div ul li{
+    list-style-type: none;
+    padding: 7px;
+}
+footer article div ul li a:hover{
+    color: white;
+}
+#instagram img{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+#instagram{
+    padding: 0;
+    margin: 0;
+    width: 20%;
+    text-align: center;
+}
+#instagram h3{
+    text-align: left;
+}
+
+
