@@ -1,0 +1,10 @@
+
+fieldset{
+    width: 20%;
+    margin: 0 auto;
+    font-size: 27px;
+    border: 2px solid black;
+}
+input,select,textarea{
+    width: 75%;
+}
