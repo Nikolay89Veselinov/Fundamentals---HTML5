@@ -1,0 +1,49 @@
+form{
+    width: 30%;
+    margin: 50px auto;
+    background: #c8c8c8;
+    border: solid 2px gray;
+    padding: 0 15px 25px 10px;
+    font-size: 16px;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+
+}
+h1{
+    font-size: 25px;
+    padding: 0 0 10px 40px;
+    border-bottom: 1px  solid gray;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+}
+label > span{
+    float: left;
+    width: 87px;
+    text-align: right;
+    padding-right: 10px;
+}
+label > input{
+    width: 80%;
+}
+label > textarea{
+    width: 80%;
+}
+body > form > input[type="submit"]{
+    background: #E27575;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 1px #B6B6B6;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+    margin:  15px 87px;
+    width: 200px;
+}
+body > form > label:nth-child(6) > select{
+    width: 80%;
+    padding: 5px;
+    color: #888;
+}
